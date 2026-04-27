@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Liste de course</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="app-container">
+      <div id="user-section">
+        <div id="input" style="margin-right: 10px">
+          <input
+            type="text"
+            class="input-article"
+            placeholder="Entrez une nouvelle tâche"
+            required
+          />
+        </div>
+        <div id="btn-add">
+          <button class="btn-add">➕</button>
+        </div>
+      </div>
+
+      <div id="article-section" style="width: 90%;">
+        <h3 style="text-transform: uppercase">Mes articles</h3>
+        <p>
+          Total des articles :
+          <span class="article-number"></span>
+        </p>
+        <hr />
+        <div id="list-content" style="margin-top: 10px;">
+          <ul class="list-article">
+            <!--Liste des courses-->
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>

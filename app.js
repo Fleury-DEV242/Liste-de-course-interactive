@@ -13,7 +13,7 @@ const addArticle = (e) => {
     const li = document.createElement("li");
     li.innerHTML = `
   <input id="check" type="checkbox" />
-  <label for="check">${(textContent = input.value)}</label>
+  <p class="article">${(textContent = input.value)}</p>
   `;
     li.style.textTransform = "Capitalize";
     input.value = "";
